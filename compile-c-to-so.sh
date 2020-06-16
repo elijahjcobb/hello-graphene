@@ -1,0 +1,1 @@
+cc -fPIC -shared -o test.so test.c
