@@ -5,6 +5,14 @@ import graphene
 import ctypes
 import uvicorn
 
+# add_lib = ctypes.CDLL("/home/elijah/Projects/hello-graphene/test.so")
+# increment = add_lib.increment
+# increment.argtypes = [ctypes.POINTER(ctypes.c_int)]
+# x = ctypes.c_int()
+# x.value = 41
+# increment(x)
+# print(x.value)
+
 
 class Count:
 	main = 0

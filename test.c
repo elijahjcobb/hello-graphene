@@ -9,3 +9,8 @@ int myPow(int num, int exp)
     for (int i = 0; i < exp; i++) ret *= num;
     return ret;
 }
+
+void increment(int* x)
+{
+    *x += 1;
+}
